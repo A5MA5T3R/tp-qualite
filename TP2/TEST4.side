@@ -1,0 +1,59 @@
+{
+  "id": "a51301b4-51d7-451c-9991-a63d168fd624",
+  "version": "2.0",
+  "name": "TEST4",
+  "url": "https://www.google.fr",
+  "tests": [{
+    "id": "7f4779bf-0e75-4d31-84ec-a64171cf4eda",
+    "name": "test15",
+    "commands": [{
+      "id": "047cef8b-61ac-447f-8037-a7a411387963",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93174623-72d1-4dc2-aac4-c62642497351",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "706x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d0cbae3-e8fb-4754-9047-f72de023bed9",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "renan deverdun"
+    }, {
+      "id": "252aac3f-ebc4-4dfa-9e4d-636b25ca658a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hlcw0c:nth-child(1) .LC20lb:nth-child(2)",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) .LC20lb:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "532c67ef-df69-46a7-8aa9-0990c3397f1c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7f4779bf-0e75-4d31-84ec-a64171cf4eda"]
+  }],
+  "urls": ["https://www.google.fr/"],
+  "plugins": []
+}
